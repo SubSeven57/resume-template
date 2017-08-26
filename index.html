@@ -3,11 +3,13 @@
 
 <head>
   <meta charset="utf-8">
-  <title>SubSeven</title>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
-  <!-- Normalize CSS so things are more consistent -->
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <script src="scripts.js"></script>
+  <title>Title of Your Site</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <!-- Normalize CSS: https://github.com/necolas/normalize.css/ -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  <!--How do you do, fellow kids? Anyways, you can get a full list of the emojis you can use here: https://afeld.github.io/emoji-css/-->
+  <script src="js/scripts.js"></script>
 </head>
 
 <body>
@@ -17,10 +19,10 @@
       <a href="#" onclick="openNav()">&#9776; Menu</a>
     </div>
     <div class="header-c2">
-      <p> Daniel Hernandez </p>
+      <p>Your Name Goes Here</p>
     </div>
     <div class="header-c3">
-      <a href="https://subseven.io"><img src="https://blog.subseven.io/wp-content/uploads/2017/08/cropped-Subseven-Symbol2-1.png" id="site-logo" alt="The SubSeven Logo" src="https://blog.subseven.io/wp-content/uploads/2017/08/cropped-Subseven-Symbol2-1.png"/></a>
+      <a href="#"><img src="assets/img/site-logo.png" id="site-logo" alt="Alt for your logo"/></a>
     </div>
   </header>
   <!--End of header and menu. -->
@@ -28,27 +30,34 @@
   <!--Begin menu and menu container. -->
   <nav class="menu-sidebar" id="main-nav">
     <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
-    <a class="menu-item" href="https://subseven.io" class="btn">Home</a></li>
-    <a class="menu-item" href="https://blog.subseven.io/contact" class="btn" target="_blank">Contact</a></li>
-    <a class="menu-item" href="https://blog.subseven.io" class="btn" target="_blank">Blog</a></li>
-    <a class="menu-item" href="https://github.com/SubSeven57" class="btn" target="_blank">GitHub</a></li>
-    <a class="menu-item" href="https://scarletdawn.me" class="btn" target="_blank">Music</a></li>
+    <a class="menu-item" href="#" class="btn" target="_blank">Link 0</a></li>
+    <a class="menu-item" href="#" class="btn" target="_blank">Link 1</a></li>
+    <a class="menu-item" href="#" class="btn" target="_blank">Link 2</a></li>
+    <a class="menu-item" href="#" class="btn" target="_blank">Link 3</a></li>
+    <a class="menu-item" href="#" class="btn" target="_blank">Link 4</a></li>
   </nav>
   <!--End of menu and menu container. -->
 
-  <!-- Begin resume pre-container-->
+  <!-- Begin resume container 1-->
   <div id="cont-1">
     <!-- Description information resume container-->
-    <img src="https://avatars0.githubusercontent.com/u/5679100?v=4&s=460" id="user-pic" alt="Daniel Hernandez" />
-    <h6 id="daniel-pre"> Web Developer / Musician / Volunteer</span> </h6>
-    <p id="daniel-post"> Web developer and student seeking opportunities in open source, non-profits, education, and activism opportunities.</p>
+    <img src="assets/img/user-pic.png" id="user-pic" alt="Alt for your image" />
+    <h6 id="pre-desc">Your Skills / Your Selling Points / Idk, Brag</span></h6>
+    <p id="post-desc">Your mission or objective.</p>
   </div>
   <!-- End of resume pre-container. -->
 
+  <!-- Begin resume container 2-->
   <div id="cont-2">
     <h2 class="h-cont">Education</h2>
     <div class="t-cont">
+      <h4 class="t-head"> Degree at School</h4> <span class="it"> From xxxx to xxxx</span>
+      <hr class="dv">
+      <p class="blrb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+      <h4 class="t-head"> Degree at School</h4> <span class="it"> From xxxx to xxxx</span>
+      <hr class="dv">
+      <p class="blrb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 
     <h2 class="h-cont">Experience</h2>
@@ -60,12 +69,16 @@
     <div class="t-cont">
 
     </div>
-    
+
 
   </div>
+  <!-- End resume container 2-->
+
 
   <!-- Begin footer container -->
-  <footer id="site-footer"><span id="footer-cont">SubSeven | <a href="https://github.com/SubSeven57/subseven.io" target="_blank">Source</a> </span></footer>
-</body>
-</html>
+  <footer id="site-footer"><span id="footer-cont">Your Copyright Info</span></footer>
+  <!-- End footer container -->
 
+</body>
+
+</html>
