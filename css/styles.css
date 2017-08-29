@@ -17,6 +17,7 @@ a {
   text-decoration: none;
 }
 
+
 /**** MENU STYLES ****/
 
 .menu-sidebar {
@@ -107,7 +108,6 @@ a {
 }
 
 
-
 /**** RESUME STUFF: Container 1 ****/
 
 #cont-1 {
@@ -146,18 +146,21 @@ a {
   margin-bottom: 0 0 10px 0;
 }
 
+
 .h-cont {
   font-weight: bold;
   text-align: center;
   color: #FFF;
   background: #5271ff;
   padding: 6px;
+  margin: 0 25% 0 25%;
+  border-radius: 200px 0px 170px 100px;
 }
 
 .t-cont {
   border: 1px solid red;
   padding: 5px;
-  margin: 0 25% 12px 25%;
+  margin: 0 10% 0 10%;
 }
 
 .t-head {
@@ -174,11 +177,26 @@ a {
   font-style: italic;
   font-weight: lighter;
   text-align: justify;
+  color: #8c8b8b;
 }
 
 .dv {
-
+  border-top: 1px solid #8c8b8b;
+  border-bottom: 1px solid #fff;
 }
+
+.dv:after {
+  content: '';
+  display: block;
+  margin-top: 2px;
+  border-top: 1px solid #8c8b8b;
+  border-bottom: 1px solid #fff;
+}
+
+#sk {
+  list-style: none;
+}
+
 
 /****
 SITE FOOTER
