@@ -178,6 +178,7 @@ a {
   margin: 0;
   font-family: serif;
   text-align: left;
+  margin: 0 0 10px 0;
 }
 
 /* Manages content inside the body containers */
