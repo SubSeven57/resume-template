@@ -7,9 +7,7 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <!-- Normalize CSS: https://github.com/necolas/normalize.css/ -->
   <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-  <!--How do you do, fellow kids? Anyways, you can get a full list of the emojis you can use here: https://afeld.github.io/emoji-css/-->
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <script src="js/scripts.js"></script>
 </head>
 
@@ -30,12 +28,14 @@
 
   <!--Begin menu and menu container. -->
   <nav class="menu-sidebar" id="main-nav">
+    <!-- This template uses font-awesome icons. Here you can make use of them to highlight your links. -->
     <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
-    <a class="menu-item" href="#" class="btn" target="_blank">Link 0</a></li>
-    <a class="menu-item" href="#" class="btn" target="_blank">Link 1</a></li>
-    <a class="menu-item" href="#" class="btn" target="_blank">Link 2</a></li>
-    <a class="menu-item" href="#" class="btn" target="_blank">Link 3</a></li>
-    <a class="menu-item" href="#" class="btn" target="_blank">Link 4</a></li>
+    <a class="menu-item" href="#" class="btn" target="#"><i class="fa fa-home"></i> Home</a></li>
+    <a class="menu-item" href="#" class="btn" target="_blank"><i class="fa fa-wordpress"></i> Blog</a></li>
+    <a class="menu-item" href="#" class="btn" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
+    <a class="menu-item" href="#" class="btn" target="_blank"><i class="fa fa-github"></i> GitHub</a></li>
+    <a class="menu-item" href="#" class="btn" target="_blank"><i class="fa fa-medium"></i> Medium</a></li>
+    <!-- Refer to the documentation to see what icons are supported. However, the basics are that you give the "i" element a class of "fa" then "fa-whatever" -->
   </nav>
   <!--End of menu and menu container. -->
 
@@ -51,7 +51,7 @@
   <!-- Begin resume container 2-->
   <div id="cont-2">
     <h2 class="h-cont">Education</h2>
-    <div class="t-cont">
+    <div class="t-cont clr-1">
       <h4 class="t-head"> Degree at School</h4> <span class="it"> From xxxx to xxxx</span>
       <hr class="dv">
       <p class="blrb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
@@ -64,7 +64,7 @@
     </div>
 
     <h2 class="h-cont">Experience</h2>
-    <div class="t-cont">
+    <div class="t-cont clr-2">
       <h4 class="t-head">Title at Job</h4> <span class="it"> From xxxx to xxxx</span>
       <hr class="dv">
       <p class="blrb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
@@ -77,9 +77,13 @@
     </div>
 
     <h2 class="h-cont">Skills</h2>
-    <div class="t-cont">
-      <ul class="t-head" id="sk">
-        <li>Skill Name</li>
+    <div class="t-cont clr-1" id="skills">
+      <ul class="t-cont" id="sk languages">
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">Winterthur</a></li>
+        <li><a href="#">Lausanne</a></li>
+        <li><a href="#">Lucerne</a></li>
       </ul>
     </div>
 

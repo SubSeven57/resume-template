@@ -4,7 +4,7 @@ html {
   font-family: sans-serif;
   text-rendering: optimizeLegibility;
   font-size: 16px;
-  background-color: #f9f9f9;
+  background-color: #F8F8F8 
 }
 
 body {
@@ -138,6 +138,14 @@ a {
   RESUME STUFF: Container 2
   ****/
 
+.clr-1 {
+  background-color: #f9f9f9;
+}
+
+.clr-2 {
+  background-color: #FFF;
+}
+
 #cont-2 {
   border: 1px solid red;
   /* Debug only*/
@@ -153,14 +161,13 @@ a {
   color: #FFF;
   background: #5271ff;
   padding: 6px;
-  margin: 0 25% 0 25%;
-  border-radius: 200px 0px 170px 100px;
+  margin: 0 10% 0 10%;
 }
 
 .t-cont {
   border: 1px solid red;
-  padding: 5px;
-  margin: 0 10% 0 10%;
+  padding: 10px 10% 0 10%;
+  margin: 0;
 }
 
 .t-head {
@@ -191,6 +198,10 @@ a {
   margin-top: 2px;
   border-top: 1px solid #8c8b8b;
   border-bottom: 1px solid #fff;
+}
+
+#skill {
+  width: 200px;
 }
 
 #sk {
