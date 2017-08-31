@@ -4,7 +4,7 @@ html {
   font-family: sans-serif;
   text-rendering: optimizeLegibility;
   font-size: 16px;
-  background-color: #F8F8F8 
+  background-color: #F8F8F8
 }
 
 body {
@@ -20,6 +20,7 @@ a {
 
 /**** MENU STYLES ****/
 
+/* MAnages the sidebar container */
 .menu-sidebar {
   background-color: #FFF;
   padding-top: 4em;
@@ -33,6 +34,7 @@ a {
   float: right;
 }
 
+/* Manages the links in the sidebar */
 .menu-sidebar a {
   padding: .5em;
   text-decoration: none;
@@ -41,10 +43,12 @@ a {
   transition: 0.3s;
 }
 
+/* Manages the colours of the links in the sidebar */
 .menu-sidebar a:hover, .offcanvas a:focus {
   color: #2eb2ff;
 }
 
+/* Manages properties of the close button in the sidebar */
 .menu-sidebar .close-btn {
   position: absolute;
   top: 0;
@@ -53,12 +57,7 @@ a {
   margin-right: 50px;
 }
 
-.menu-appear {
-  font-size: 30px;
-  cursor: pointer;
-  text-decoration: none;
-}
-
+/* Manages the display of the menu in mobile devices */
 @media screen and (max-height: 450px) {
   .menu-sidebar {
     padding-top: 15px;
@@ -71,12 +70,14 @@ a {
 
 /**** SITE HEADER ****/
 
+/* Manages the logo container */
 #site-logo {
   max-height: 50px;
   max-width: 50px;
   border-radius: 50%;
 }
 
+/* Manages the header container*/
 #site-header {
   background-color: #FFF;
   color: #5271ff;
@@ -138,6 +139,7 @@ a {
   RESUME STUFF: Container 2
   ****/
 
+/* Background colours for containers. */
 .clr-1 {
   background-color: #f9f9f9;
 }
@@ -154,7 +156,7 @@ a {
   margin-bottom: 0 0 10px 0;
 }
 
-
+/* Manages headers for sections inside the resumer container */
 .h-cont {
   font-weight: bold;
   text-align: center;
@@ -164,22 +166,26 @@ a {
   margin: 0 10% 0 10%;
 }
 
+/* Manages the body for the containers in the resume container */
 .t-cont {
   border: 1px solid red;
   padding: 10px 10% 0 10%;
   margin: 0;
 }
 
+/* Manages sub headings inside the body containers */
 .t-head {
   margin: 0;
   font-family: serif;
   text-align: left;
 }
 
+/* Manages content inside the body containers */
 .blrb {
   font-style: normal;
 }
 
+/* Italics */
 .it {
   font-style: italic;
   font-weight: lighter;
@@ -187,6 +193,7 @@ a {
   color: #8c8b8b;
 }
 
+/* Manages the fancy line break*/
 .dv {
   border-top: 1px solid #8c8b8b;
   border-bottom: 1px solid #fff;
@@ -200,14 +207,12 @@ a {
   border-bottom: 1px solid #fff;
 }
 
-#skill {
-  width: 200px;
-}
-
-#sk {
+/* Manages the skill list styles */
+.sk {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
-
 
 /****
 SITE FOOTER
