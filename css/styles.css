@@ -17,6 +17,9 @@ a {
   text-decoration: none;
 }
 
+i {
+  color:#444;
+}
 
 /**** MENU STYLES ****/
 
@@ -131,7 +134,7 @@ a {
 
 #post-desc {
   font-weight: lighter;
-  color: #181818;
+  color:#444;
 }
 
 
@@ -175,6 +178,7 @@ a {
 
 /* Manages sub headings inside the body containers */
 .t-head {
+  color:#444;
   margin: 0;
   font-family: serif;
   text-align: left;
@@ -196,7 +200,7 @@ a {
 
 /* Manages the fancy line break*/
 .dv {
-  border-top: 1px solid #8c8b8b;
+  border-top: 1px solid #444;
   border-bottom: 1px solid #fff;
 }
 
@@ -211,6 +215,7 @@ a {
 /* Manages the skill list styles */
 .sk {
   list-style: none;
+  pointer-events: none;
   margin: 0;
   padding: 0;
 }
