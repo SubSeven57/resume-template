@@ -60,16 +60,6 @@ i {
   margin-right: 50px;
 }
 
-/* Manages the display of the menu in mobile devices */
-@media screen and (max-height: 450px) {
-  .menu-sidebar {
-    padding-top: 15px;
-  }
-  .menu-sidebar a {
-    font-size: 18px;
-  }
-}
-
 
 /**** SITE HEADER ****/
 
@@ -166,7 +156,7 @@ i {
   color: #FFF;
   background: #5271ff;
   padding: 6px;
-  margin: 0 10% 0 10%;
+  margin: 0 0 0 0;
 }
 
 /* Manages the body for the containers in the resume container */
@@ -239,4 +229,41 @@ SITE FOOTER
 
 #footer-cont {
   color: #5271ff;
+}
+
+/****
+MEDIA QUERIES
+****/
+
+@media screen and (min-width: 280px) {
+   #user-pic {
+     max-width: 130px;
+     max-height: 130px;
+   }
+
+   #site-logo {
+     max-width: 25px;
+     max-height: 25px;
+   }
+
+   #your-name {
+     padding-top: 10px;
+     font-size: 10px;
+   }
+
+   #m-menu {
+     font-size: 10px;
+   }
+
+}
+
+
+/* Manages the display of the menu in mobile devices */
+@media screen and (max-height: 450px) {
+  .menu-sidebar {
+    padding-top: 15px;
+  }
+  .menu-sidebar a {
+    font-size: 18px;
+  }
 }
