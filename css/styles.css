@@ -259,7 +259,7 @@ MEDIA QUERIES
 
 
 /* Manages the display of the menu in mobile devices */
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 450px) and (min-height:"320" ) {
   .menu-sidebar {
     padding-top: 15px;
   }
