@@ -148,14 +148,6 @@ i {
 
 /* Background colours for containers. */
 
-.clr-1 {
-  background-color: #f9f9f9;
-}
-
-.clr-2 {
-  background-color: #FFF;
-}
-
 #cont-2 {
   border: 1px solid red;
   /* Debug only*/
@@ -231,6 +223,7 @@ i {
 
 
 /* Manages the skill list styles */
+
 .sk ul {
   list-style: none;
   pointer-events: none;
@@ -240,15 +233,16 @@ i {
 
 
 /* Manages the programming languages list */
+
 .pl {
   column-count: 3;
-
 }
 
 .pl i {
   font-size: 20px;
   color: #5271ff;
 }
+
 
 /****
 SITE FOOTER
