@@ -4,10 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <!-- Normalize CSS: https://github.com/necolas/normalize.css/ -->
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css"> <!-- Normalize CSS: https://github.com/necolas/normalize.css/ -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css"> <!-- The custom style sheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> <!-- Adds icons -->
+   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"> <!-- Adds programming languge icons -->
   <script src="js/scripts.js"></script>
   <title>Title of Your Site</title> <!-- Your title -->
 </head>
@@ -80,15 +80,18 @@
     </div>
     <!-- Begin skills container-->
     <h2 class="h-cont">Skills</h2>
-    <div class="t-cont clr-1" id="skills">
-      <ul class="sk">
+    <div class="t-cont clr-1">
+      <div class="sk">
         <h4 class="t-head"> Programming Languages</h4>
-        <li><i class="fa fa-html5"></i> HTML</a>
+      <ul class="pl">
+        <!-- If you want or need to, you can add icons to programming languages here. Font Awesome has some missing -->
+        <li><i class="devicon-html5-plain"></i> HTML</a>
         </li>
-        <li><i class="fa fa-css3"></i> CSS</a>
+        <li><i class="devicon-css3-plain"></i> CSS</a>
         </li>
-        <li><i class="fa fa-php"></i> PHP</li>
+        <li><i class="devicon-php-plain"></i> PHP</li>
       </ul>
+    </div class="sk">
     </div>
   </div>
   <!-- End resume container 2-->
