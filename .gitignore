@@ -9,6 +9,8 @@ __MACOSX
 .settings
 .classpath
 .sass-cache/
+*.swp
+*.swo
 
 # OS generated files #
 ######################
