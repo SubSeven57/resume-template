@@ -191,7 +191,7 @@ i {
 .t-head {
   color: #444;
   margin: 0;
-  font-family: serif;
+  font-family: monospace;
   text-align: left;
   margin: 0 0 10px 0;
 }
@@ -231,14 +231,24 @@ i {
 
 
 /* Manages the skill list styles */
-
 .sk {
+
+}
+
+
+/* Programming languages */
+.pl {
   list-style: none;
   pointer-events: none;
   margin: 0;
   padding: 0;
+  column-count: 3;
+
 }
 
+.pl i {
+  font-size: 20px;
+}
 
 /****
 SITE FOOTER
