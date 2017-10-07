@@ -18,27 +18,6 @@ a {
 
 /**** MENU STYLES ****/
 
-/* Variable Classes */
-.cl1 {
-  --cl1: #000;
-}
-
-.cl2 {
-  color" #FFF;
-}
-
-.cl3 {
-  color:#5271ff;
-}
-
-.cl4{
-  color: #F44336;
-}
-
-.cl5 {
-  --cl5: #2eb2ff;
-}
-
 /* Manages the sidebar container */
 
 .menu-sidebar {
@@ -69,14 +48,8 @@ a {
 /* Manages the colours of the links in the sidebar */
 
 .menu-sidebar a:hover, a:focus {
-  color: #2eb2ff;
-}
-
-.menu-sidebar a:visited {
   color: #F44336;
 }
-
-
 
 /* Manages properties of the close button in the sidebar */
 
@@ -104,18 +77,18 @@ a {
 /* Manages the header container*/
 
 #site-header {
-  background-color: #FFF;
   color: #5271ff;
+  background-color: #FFF;
   padding: 10px;
   max-height: 25%;
 }
 
 .header-c1 a {
+  color: #5271ff;
   position: absolute;
   padding-top: 10px;
   padding-left: 10px;
   text-decoration: none;
-  color: #5271ff;
   left: 0;
   top: 0;
 }
@@ -136,9 +109,8 @@ a {
 /**** RESUME STUFF: Container 1 ****/
 
 #cont-1 {
-  border: 1px solid red;
-  padding: 12px 0 0 0;
-  margin: 0 0% 0 0%;
+  padding: 2% 0 2% 0;
+  margin: 0;
   text-align: center;
   background-image: linear-gradient(45deg, #F44336, #5271ff);
 }
@@ -168,11 +140,9 @@ a {
 /* Background colours for containers. */
 
 #cont-2 {
-  border: 1px solid red;
-  /* Debug only*/
   overflow-x: auto;
-  padding: 0 0 15px 0;
-  margin-bottom: 0 0 10px 0;
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -184,14 +154,13 @@ a {
   color: #FFF;
   background: #5271ff;
   padding: 6px;
-  margin: 0 0 0 0;
+  margin: 0;
 }
 
 
 /* Manages the body for the containers in the resume container */
 
 .t-cont {
-  border: 1px solid red;
   padding: 10px 10% 0 10%;
   margin: 0;
 }
@@ -201,7 +170,6 @@ a {
 
 .t-head {
   color: #444;
-  margin: 0;
   font-family: monospace;
   text-align: left;
   margin: 0 0 10px 0;
@@ -229,7 +197,6 @@ a {
 
 .dv {
   border-top: 1px solid #444;
-  border-bottom: 1px solid #444;
 }
 
 .dv:after {
