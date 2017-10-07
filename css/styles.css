@@ -16,9 +16,28 @@ a {
   text-decoration: none;
 }
 
-
 /**** MENU STYLES ****/
 
+/* Variable Classes */
+.cl1 {
+  --cl1: #000;
+}
+
+.cl2 {
+  color" #FFF;
+}
+
+.cl3 {
+  color:#5271ff;
+}
+
+.cl4{
+  color: #F44336;
+}
+
+.cl5 {
+  --cl5: #2eb2ff;
+}
 
 /* Manages the sidebar container */
 
@@ -47,12 +66,16 @@ a {
   transition: 0.3s;
 }
 
-
 /* Manages the colours of the links in the sidebar */
 
-.menu-sidebar a:hover, .offcanvas a:focus {
+.menu-sidebar a:hover, a:focus {
   color: #2eb2ff;
 }
+
+.menu-sidebar a:visited {
+  color: #F44336;
+}
+
 
 
 /* Manages properties of the close button in the sidebar */
@@ -219,9 +242,6 @@ a {
 
 
 /* Manages stles for SHOWCASE section */
-.icons {
-  color: #5271ff;
-}
 
 .sk ul {
   list-style: none;
