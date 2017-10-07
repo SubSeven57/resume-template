@@ -13,12 +13,7 @@ body {
 }
 
 a {
-  color: #5271FF;
   text-decoration: none;
-}
-
-i {
-  color: #444;
 }
 
 
@@ -26,6 +21,11 @@ i {
 
 
 /* Manages the sidebar container */
+
+.menu-sidebar a {
+  color: #5271ff;
+  text-decoration: none;
+}
 
 .menu-sidebar {
   background-color: #FFF;
@@ -209,8 +209,8 @@ i {
 /* Manages the fancy line break*/
 
 .dv {
-  border-top: 1px solid #F44336;
-  border-bottom: 1px solid #5271ff;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
 }
 
 .dv:after {
@@ -224,11 +224,16 @@ i {
 
 /* Manages the skill list styles */
 
+.icons {
+  color: #5271ff;
+}
+
 .sk ul {
   list-style: none;
   pointer-events: none;
   margin: 0;
   padding: 0 0 10px 0;
+  color: #444;
 }
 
 
@@ -240,7 +245,6 @@ i {
 
 .pl i {
   font-size: 20px;
-  color: #5271ff;
 }
 
 
