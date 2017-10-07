@@ -214,7 +214,6 @@ a {
   list-style: none;
   margin: 0;
   padding: 0 0 10px 0;
-  color: #444;
 }
 
 /* Manages the list styles specific for PROGRAMMING list */
@@ -225,7 +224,7 @@ a {
 
 /* Manages the list styles specific for PROJECTS list */
 #projects a {
-  color: #777
+  color: #000;
 }
 
 
@@ -245,7 +244,6 @@ SITE FOOTER
 ****/
 
 #site-footer {
-  border: .5px solid red;
   position: relative;
   left: 0;
   bottom: 0;
