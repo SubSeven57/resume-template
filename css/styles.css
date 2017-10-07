@@ -22,11 +22,6 @@ a {
 
 /* Manages the sidebar container */
 
-.menu-sidebar a {
-  color: #5271ff;
-  text-decoration: none;
-}
-
 .menu-sidebar {
   background-color: #FFF;
   padding-top: 4em;
@@ -44,6 +39,7 @@ a {
 /* Manages the links in the sidebar */
 
 .menu-sidebar a {
+  color: #5271ff;
   padding: .5em;
   text-decoration: none;
   font-size: 25px;
@@ -222,22 +218,31 @@ a {
 }
 
 
-/* Manages the skill list styles */
-
+/* Manages stles for SHOWCASE section */
 .icons {
   color: #5271ff;
 }
 
 .sk ul {
   list-style: none;
-  pointer-events: none;
   margin: 0;
   padding: 0 0 10px 0;
   color: #444;
 }
 
+/* Manages the list styles specific for PROGRAMMING list */
 
-/* Manages the programming languages list */
+#programming a {
+  pointer-events: none;
+}
+
+/* Manages the list styles specific for PROJECTS list */
+#projects a {
+  color: #777
+}
+
+
+/* Manages the list */
 
 .pl {
   column-count: 3;
