@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  line-height: 1.5;
+  line-height: 1.5em;
 }
 
 a {
@@ -21,11 +21,13 @@ img {
 
 /**** MENU STYLES ****/
 
-/* Manages the sidebar container */
+/*Fixes the weird margin issues with the menu icon */
 
 #m-menu {
   margin-top: 15px;
 }
+
+/* Manages the sidebar container */
 
 .menu-sidebar {
   background-color: #FFF;
@@ -264,5 +266,3 @@ SITE FOOTER
 #footer-cont {
   color: #5271ff;
 }
-
-
