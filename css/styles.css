@@ -157,19 +157,19 @@ img {
 
 /* Manages headers for sections inside the resumer container */
 
-.h-cont {
+.header-c {
   font-weight: bold;
   text-align: center;
   color: #FFF;
   background: #5271ff;
-  padding: 6px;
+  padding: 15px;
   margin: 0;
 }
 
 
 /* Manages the body for the containers in the resume container */
 
-.t-cont {
+.body-c {
   padding: 10px 10% 0 10%;
   margin: 0;
 }
@@ -177,7 +177,7 @@ img {
 
 /* Manages sub headings inside the body containers */
 
-.t-head {
+.name-c {
   color: #444;
   font-family: monospace;
   text-align: left;
@@ -187,7 +187,7 @@ img {
 
 /* Manages content inside the body containers */
 
-.blrb {
+.blurb-c {
   font-style: normal;
 }
 
@@ -204,11 +204,11 @@ img {
 
 /* Manages the fancy line break*/
 
-.dv {
+.divider {
   border-top: 1px solid #444;
 }
 
-.dv:after {
+.divider:after {
   content: '';
   display: block;
   margin-top: 2px;
@@ -218,12 +218,6 @@ img {
 
 
 /* Manages stles for SHOWCASE section */
-
-.sk ul {
-  list-style: none;
-  margin: 0;
-  padding: 0 0 10px 0;
-}
 
 /* Manages the list styles specific for PROGRAMMING list */
 
@@ -239,11 +233,14 @@ img {
 
 /* Manages the list */
 
-.pl {
+.list-c ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 10px 0;
   column-count: 3;
 }
 
-.pl i {
+.list-c i {
   font-size: 20px;
 }
 
