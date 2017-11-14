@@ -16,16 +16,19 @@ a {
 }
 
 img {
-    width: 100%;
-  }
+  width: 100%;
+}
+
 
 /**** MENU STYLES ****/
+
 
 /*Fixes the weird margin issues with the menu icon */
 
 #m-menu {
   margin-top: 15px;
 }
+
 
 /* Manages the sidebar container */
 
@@ -54,11 +57,13 @@ img {
   transition: 0.3s;
 }
 
+
 /* Manages the colours of the links in the sidebar */
 
 .menu-sidebar a:hover, a:focus {
   color: #F44336;
 }
+
 
 /* Manages properties of the close button in the sidebar */
 
@@ -115,6 +120,7 @@ img {
   top: 0;
 }
 
+
 /**** RESUME STUFF: Container 1 ****/
 
 #cont-1 {
@@ -122,6 +128,7 @@ img {
   margin: 0;
   text-align: center;
   background-image: linear-gradient(45deg, #F44336, #5271ff);
+  /*You can change your colours here*/
 }
 
 #user-pic {
@@ -144,9 +151,6 @@ img {
 /****
   RESUME STUFF: Container 2
   ****/
-
-
-/* Background colours for containers. */
 
 #cont-2 {
   overflow-x: auto;
@@ -219,13 +223,16 @@ img {
 
 /* Manages stles for SHOWCASE section */
 
+
 /* Manages the list styles specific for PROGRAMMING list */
 
 #programming a {
   pointer-events: none;
 }
 
+
 /* Manages the list styles specific for PROJECTS list */
+
 #projects a {
   color: #000;
 }
