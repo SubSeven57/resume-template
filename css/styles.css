@@ -272,6 +272,11 @@ img {
 SITE FOOTER
 ****/
 
+.copyleft {
+  display:inline-block;
+  transform: rotate(180deg);
+}
+
 #site-footer {
   position: relative;
   left: 0;
