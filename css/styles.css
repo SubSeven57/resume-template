@@ -188,6 +188,11 @@ img {
   margin: 0 0 10px 0;
 }
 
+.company-c {
+  color: #000;
+  text-align: left;
+  margin: 0 0 10px 0;
+}
 
 /* Manages content inside the body containers */
 
@@ -202,22 +207,29 @@ img {
   font-style: italic;
   font-weight: lighter;
   text-align: justify;
-  color: #8c8b8b;
+  color: #444;
+  margin-left: 0;
+  padding: 0;
 }
 
 
 /* Manages the fancy line break*/
 
 .divider {
-  border-top: 1px solid #444;
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
 }
 
 .divider:after {
   content: '';
   display: block;
   margin-top: 2px;
-  border-top: 1px solid #8c8b8b;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
 }
 
 
@@ -251,10 +263,26 @@ img {
   font-size: 20px;
 }
 
+#projects {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 10px 0;
+}
+
+#projects a {
+  text-decoration: underline;
+  color: #5271ff;
+}
+
 
 /****
 SITE FOOTER
 ****/
+
+.copyleft {
+  display:inline-block;
+  transform: rotate(180deg);
+}
 
 #site-footer {
   position: relative;
