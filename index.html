@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
 <head>
-  <!-- Hi, thanks for looking at my source code. Have you considered looking at my SoundCloud instead? https://soundcloud.com/scarlet_dawn/ -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -15,46 +13,51 @@
   <!-- Adds programming languge icons -->
   <script src="js/scripts.js"></script>
   <!-- The scripts for this page -->
-  <title>Daniel Hernandez - Resume</title>
+  <title>Title of Your Site</title>
   <!-- Your title -->
 </head>
 
 <body>
-
+  <!--Begin header and header containers-->
   <header id="site-header">
     <div class="header-c1">
       <a id="m-menu" href="#" onclick="openNav()">&#9776; Menu</a>
     </div>
     <div class="header-c2">
-      <p id="your-name">Daniel Hernandez</p>
-
+      <p id="your-name">Your Brand Name</p>
+      <!-- Your personal brand name -->
     </div>
     <div class="header-c3">
-      <a href="https://subseven.io/"><img src="assets/img/site-logo.png" id="site-logo" alt="SubSeven"/></a>
+      <a href="#"><img src="assets/img/site-logo.png" id="site-logo" alt="Alt for your logo"/></a>
     </div>
   </header>
-  <nav class="menu-sidebar" id="main-nav">
+  <!--End of header and menu. -->
 
+  <!--Begin menu and menu container. -->
+  <nav class="menu-sidebar" id="main-nav">
+    <!-- This template uses font-awesome icons. Here you can make use of them to highlight your links.
+    Below this, you can replace the contents with your own links.
+    -->
     <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
-    <a class="menu-item" href="https://subseven.io/" class="btn"><i class="fa fa-home"></i> Home</a></li>
-    <a class="menu-item" href="https://subseven.io/blog" class="btn"><i class="fa fa-wordpress"></i> Blog</a></li>
-    <a class="menu-item" href="https://twitter.com/subseven57" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-twitter"></i> Twitter</a></li>
-    <a class="menu-item" href="https://github.com/subseven57" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-github"></i> GitHub</a></li>
-    <a class="menu-item" href="https://medium.com/@subseven" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-medium"></i> Medium</a></li>
+    <a class="menu-item" href="#" class="btn" target="#"><i class="fa fa-home"></i> Home</a></li>
+    <a class="menu-item" href="#" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-wordpress"></i> Blog</a></li>
+    <a class="menu-item" href="#" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-twitter"></i> Twitter</a></li>
+    <a class="menu-item" href="#" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-github"></i> GitHub</a></li>
+    <a class="menu-item" href="#" class="btn" target="_blank" rel="noreferrer noopener"><i class="fa fa-medium"></i> Medium</a></li>
     <!-- Refer to the documentation to see what icons are supported.
     However, the basics are that you give the "i" element a class of "fa" then "fa-whatever" -->
   </nav>
   <!--End of menu and menu container. -->
 
   <!-- Begin resume section 1-->
-  <h2 class="header-c">SubSeven</h2>
+  <h2 class="header-c">Your Name</h2>
   <!-- Your own name -->
   <div id="cont-1">
     <!-- Description information resume container-->
-    <img src="https://avatars2.githubusercontent.com/u/5679100?s=400&u=179400fe0d521777333b8b48039d31033679c829&v=4" id="user-pic" alt="Male sitting outside with a windbreaker." />
-    <h6 id="pre-desc">Developer. Musician. Advocate</span></h6>
+    <img src="assets/img/user-pic.png" id="user-pic" alt="Alt for your image" />
+    <h6 id="pre-desc">Your Taglines</span></h6>
     <!-- Your summary -->
-    <p id="post-desc">Hi! I'm Daniel. Junior in college for computer science and creative writing. <br/> Passionate about full-stack web development and social work. Currently seeking opportunities at tech companies with social impact divisions! Or full-stack development. That's cool too.</p>
+    <p id="post-desc">Your Summary.</p>
     <!-- Your mission -->
   </div>
   <!-- End of resume pre-container. -->
@@ -68,27 +71,27 @@
 
       <!-- Begin programming languages container -->
       <div class="list-c" id="programming">
-        <h4 class="name-c"> Technical Skills</h4>
+        <h4 class="name-c"> Programming Languages</h4>
         <ul>
           <!-- If you want or need to, you can add icons to programming languages here. Font Awesome has some missing -->
-          <li><i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-javascript-plain"></i> HTML, CSS, JavaScript: 7 years </li>
-          <li><i class="devicon-php-plain"></i> PHP: 5 years </li>
-	  <li><i class="devicon-mysql-plain"></i> <i class="devicon-apache-plain"></i> <i class="devicon-python-plain"></i> MySQL, Apache, Python: 5 years  </li>
-	  <li><i class="devicon-linux-plain"></i>GNU/Linux: 4 years</li>
-          <li><i class="devicon-java-plain"></i> Java: Less than 2 years </li> <!-- Gotta be honest, this is my least favourite language to work with-->
-          <li><i class="devicon-ruby-plain"></i> Ruby on Rails: Less than 1 year </li>
+          <li><i class="devicon-html5-plain"></i> HTML </li>
+          <li><i class="devicon-css3-plain"></i> CSS </li>
+          <li><i class="devicon-php-plain"></i> PHP </li>
+          <li><i class="devicon-python-plain"></i> Python </li>
+          <li><i class="devicon-ruby-plain"></i> Ruby </li>
+          <li><i class="devicon-swift-plain"></i> Swift </li>
         </ul>
       </div>
 
       <!-- Begin projects container -->
-      <div id="projects">
-        <h4 class="name-c"> Technical Projects</h4>
-        <ul id="projects">
+      <div class="list-c" id="projects">
+        <h4 class="name-c"> Projects</h4>
+        <ul>
           <!-- If you want or need to, you can add icons to programming languages here. Font Awesome has some missing -->
-          <li><a href="https://uroneiu.com" target="_blank" rel="noreferrer noopener">URO NEIU</a>: A website for NEIU undocumented student's organization URO (Undocumented, Resilient, Organized)</li>
-          <li><a href="https://github.com/SubSeven57/DecolloX" target="_blank" rel="noreferrer noopener">DecolloX</a>: A script to auto-download certain packages on fresh Ubuntu installs.</li>
-          <li><a href="https://theardentband.com" target="_blank" rel="noreferrer noopener">The Ardent</a>: A static website for Chicago-based metalcore band The Ardent.</li>
-          <li><a href="#" target="_blank" rel="noreferrer noopener">Sky Template</a>: A static and simple template for resumes.</li>
+          <li><a href="#" class="#" target="_blank" rel="noreferrer noopener"><i class="devicon-github-plain"></i> Project Title | Date </a></li>
+          <li><a href="#" class="#" target="_blank" rel="noreferrer noopener"><i class="devicon-github-plain"></i> Project Title | Date </a></li>
+          <li><a href="#" class="#" target="_blank" rel="noreferrer noopener"><i class="devicon-github-plain"></i> Project Title | Date </a></li>
+          <li><a href="#" class="#" target="_blank" rel="noreferrer noopener"><i class="devicon-github-plain"></i> Project Title | Date </a></li>
         </ul>
       </div>
     </div>
@@ -96,51 +99,35 @@
     <!-- Begin experience container-->
     <h2 class="header-c">Experience</h2>
     <div class="body-c">
-      <h3 class="company-c">GitHub</h3>
-      <h4 class="name-c">Social Impact Program Coordinator</h4>
-      <h5 class="name-c">San Francisco, CA</h5>
-      <h5 class="it"> From June 2017 to August 2017</h5>
+      <h4 class="name-c">Title at Job</h4> <span class="it"> From xxxx to xxxx</span>
       <hr class="divider">
-      <p class="blurb-c">Part 1: I was responsible for developing/deploying a survey and email campaign for GitHub's nonprofit program participants.
-        In order to achieve this, GitHub's email database had to be parsed through MySQL queries in Looker to find user accounts (around 25,000) that met a specific criteria.
-        <br/>An email campaign (MailChimp) and survey (Surey Monkey) were then developed, reviewed, and shipped. When enough information was collected, it was then to be parsed and interpreted through the use of R and Python.</p>
-      <p class="blurb-c">Part 2: When the information was collected and interpreted, I was then tasked with the writing of documentation on how non-profits can leverage use open-source software and projects for their mission.</p>
-      <p class="blurb-c"> During the duration of this internship, I worked in GitHub's Social Impact team and collaborated with GitHub's marketing, data science, and open source teams!
-      <br/>While I worked out of HQ, I had to collaborate with Hubbers in different states and countries!</p>
+      <p class="blurb-c">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h4 class="name-c">Title at Job</h4> <span class="it"> From xxxx to xxxx</span>
+      <hr class="divider">
+      <p class="blurb-c">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
-
-    <div class="body-c">
-    <h3 class="company-c">iD Tech</h3>
-    <h4 class="name-c">Instructor</h4>
-    <h5 class="name-c">San Francisco, CA</h5>
-    <h5 class="it"> From June 2015 to August 2016</h5>
-    <hr class="divider">
-    <p class="blurb-c">I worked two summers as an iD Tech instructor for their summer camps. I was primarily in charge of overseeing and ensuring the safety/well-being of a small group of campers,
-      usually composed of 5 to 8 individuals of varying ages, as well as learn, adapt, and teach a provided curriculum. Secondary responsibilities included leading camp activities,
-      collaborating with other instructors/managers to plan events, provide technical support when needed, create supplemental class materials, and lead camper/parent diploma ceremonies every Friday afternoon.</p>
-    <p class="blurb-c">During my two summers, I taught Game Design/Java Modding through Minecraft (2015) and Web Development through HTML/CSS/JavaScript (2016).</p>
-  </div>
-
 
     <!-- Begin education container-->
     <h2 class="header-c">Education</h2>
     <div class="body-c">
-      <h3 class="company-c">Northeastern Illinois University</h3>
-      <h4 class="name-c"> Computer Science (Major), Creative Writing (Minor)</h4> <span class="it"> From 2017 to 2018 (expected)</span>
+      <h4 class="name-c"> Degree at School</h4> <span class="it"> From xxxx to xxxx</span>
       <hr class="divider">
-      <p class="blurb-c">Transferred as a Junior. Currently involved wit URO (Undocumented, Resilient, and Organized) as an officer (Developer/Secretary).</p>
+      <p class="blurb-c">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-      <h3 class="company-c">Harold Washington College</h3>
-      <h4 class="name-c"> Computer Science A.S. </h4> <span class="it"> From 2014 to 2017</span>
+      <h4 class="name-c"> Degree at School</h4> <span class="it"> From xxxx to xxxx</span>
       <hr class="divider">
-      <p class="blurb-c">Completed associates in Computer Science. Involved with STEM Club as an officer (Communitcations, President)</p>
+      <p class="blurb-c">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
   </div>
   <!-- End resume container 2-->
 
 
   <!-- Begin footer container -->
-  <footer id="site-footer"><span id="footer-cont"><span class="copyleft">&copy;</span> 2017. <a href="https://github.com/SubSeven57/sky-website-template" target="_blank" rel="noreferrer noopener">Source</a></span></footer>
+  <footer id="site-footer"><span id="footer-cont">Your Copyright Info</span></footer>
   <!-- End footer container -->
 
 </body>
